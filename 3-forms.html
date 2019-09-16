@@ -14,11 +14,23 @@
  <form>
   name: <input type="text" name="name" id="name"><p>
   Your life story: <input type="text" name="story" id="story"><p>
-  <input type="radio" name="0-20yrs" value="0-20yrs"> 0-20yrs<br>
-  <input type="checkbox" name="green" value="green"> green<br>
-  <input type="checkbox" name="blue" value="blue"> blue<br>
-  <input type="checkbox" name="red" value="red"> red<br>
-  <input type="checkbox" name="yellow" value="yellow"> yellow<br>  
+  <input type="radio" name="0-20yrs" value="0-20yrs"><label for="age1"> 0-20yrs </label>
+  <input type="radio" name="0-20yrs" value="21-40yrs"><label for="age2"> 21-40yrs </label>
+  <input type="radio" name="0-20yrs" value="41-60yrs"><label for="age3"> 41-60yrs </label>
+  <input type="radio" name="0-20yrs" value="61+yrs"><label for="age4"> 61+yrs </label>
+  <p>
+  <input type="checkbox" name="green" value="green"><label for="green"> green</label>
+  <input type="checkbox" name="blue" value="blue"><label for="blue"> blue</label>
+  <input type="checkbox" name="red" value="red"><label for="red"> red</label>
+  <input type="checkbox" name="yellow" value="yellow"><label for="yellow"> yellow</label>
+  <p>
+  <label for="Occupation">Occupation</label>
+  <select name="Occupation" id="Occupation">
+  <option value="0" selected="selected">select items</option>
+  <option value="student">student</option>
+  <option value="employed">employed</option>
+  <option value="retired">retired</option>
+  </select>  
 </form> 
 </body>
 
